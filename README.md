@@ -5,4 +5,6 @@ The intention was to build up a mirror and add the capability of taking pictures
 ![alt text](https://github.com/sparklingPusher/Reflectify/blob/main/Images/Full_Setup_Front.jpg)
 
 ## Objectives
+* Continuous Visualization
+    * Location
 More explanations are going to be published...
