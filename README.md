@@ -32,4 +32,7 @@ The intention was to build up a mirror and add the capability of taking pictures
 ## Hardware Components
 ![Frontal Setup](https://github.com/sparklingPusher/Reflectify/blob/main/Images/Hardware_Components.png)
 
-
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
