@@ -30,7 +30,7 @@ The intention was to build up a mirror and add the capability of taking pictures
   * End Program
 
 ## Hardware Components
-![Frontal Setup](https://github.com/sparklingPusher/Reflectify/blob/main/Images/Hardware_Components.png)
+![Hardware](https://github.com/sparklingPusher/Reflectify/blob/main/Images/Hardware_Components.png)
 
 | Description | Component |
 | --- | --- |
@@ -45,3 +45,6 @@ The intention was to build up a mirror and add the capability of taking pictures
 | Mirror | Costum Order, Spy Glas |
 | Camera | Raspberry Pi Cam 5 MP |
 | Mirror Frame | Costum Order |
+
+## Software Components
+![Software](https://github.com/sparklingPusher/Reflectify/blob/main/Images/Software_Components.png)
