@@ -9,5 +9,22 @@ The intention was to build up a mirror and add the capability of taking pictures
    * Location
    * Current Weather
    * Forecast Weather
-* Human Detection
-   * 
+* Human Detection Visualization
+   * Day, Date, Time
+   * Room Temperature and Humidity
+   * CPU Temperature
+   * Functional Buttons
+   * Greeting Messages
+* Physical Devices
+  * Mouspad
+  * Speaker
+  * Camera
+* Button Deliveries
+  * Youtube
+  * News
+  * SoundCloud
+  * Spotify
+  * Camera
+  * Keyboard
+  * Reboot
+  * End Program
