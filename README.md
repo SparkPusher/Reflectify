@@ -28,3 +28,11 @@ The intention was to build up a mirror and add the capability of taking pictures
   * Keyboard
   * Reboot
   * End Program
+
+## Hardware Components
+![Frontal Setup](https://github.com/sparklingPusher/Reflectify/blob/main/Images/Hardware_Components.png)
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
