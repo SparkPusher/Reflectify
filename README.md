@@ -5,6 +5,8 @@ The intention was to build up a mirror and add the capability of taking pictures
 ![Frontal Setup](https://github.com/sparklingPusher/Reflectify/blob/main/Images/Full_Setup_Front.jpg)
 
 ## Objectives
+The project's primary goals and what they will accomplish are listed below, taking into account the aforementioned motivations:
+
 * Continuous Visualization
    * Location
    * Current Weather
@@ -29,9 +31,13 @@ The intention was to build up a mirror and add the capability of taking pictures
   * Reboot
   * End Program
 
-## Hardware Components
+
+## Hardware and Sotware Components
+### Hardware Components
+Depicted below, the individual components and connections
 ![Hardware](https://github.com/sparklingPusher/Reflectify/blob/main/Images/Hardware_Components.png)
 
+### List of Hardware Components
 | Description | Component |
 | --- | --- |
 | Microcontroller | Arduino Uno |
@@ -46,5 +52,6 @@ The intention was to build up a mirror and add the capability of taking pictures
 | Camera | Raspberry Pi Cam 5 MP |
 | Mirror Frame | Costum Order |
 
-## Software Components
+### Software Components
+Below, the architecture of the software is shown. This includes the main, the MVC pattern architecture, and the individual subprocesses that can be triggered via the view.
 ![Software](https://github.com/sparklingPusher/Reflectify/blob/main/Images/Software_Components.png)
