@@ -6,7 +6,6 @@ The intention was to build up a mirror and add the capability of taking pictures
 
 ## Objectives
 * Continuous Visualization
-Features to be displayed on the mirror at all times
    * Location
    * Current Weather
    * Forecast Weather
