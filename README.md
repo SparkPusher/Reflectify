@@ -32,7 +32,16 @@ The intention was to build up a mirror and add the capability of taking pictures
 ## Hardware Components
 ![Frontal Setup](https://github.com/sparklingPusher/Reflectify/blob/main/Images/Hardware_Components.png)
 
-| Command | Description |
+| Description | Component |
 | --- | --- |
-| `git status` | List all *new or modified* files |
-| `git diff` | Show file differences that **haven't been** staged |
+| Microcontroller | Arduino Uno |
+| Microcontroller / PC | Raspberry Pi Model 4B |
+| Ultrasonic Sensor | HC-SR04 |
+| Temperature/Humidity Sensor | DHT20 |
+| Cooling Fan | GeekPi Raspberry Pi 4 Fan |
+| Touchpad | Perixx PERIPAD-504 |
+| Speaker | HEANTTV Speaker 5.3 Soundbar |
+| Monitor | Caixun 27 Inch Monitor 100 Hz |
+| Mirror | Costum Order, Spy Glas |
+| Camera | Raspberry Pi Cam 5 MP |
+| Mirror Frame | Costum Order |
