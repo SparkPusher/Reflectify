@@ -78,4 +78,21 @@ sudo apt autoremove
 ```
 nano ~/.config/autostart/reflectify.desktop
 ```
+And fill in the following settings:
+```
+[Desktop Entry]
+Type=Application
+Name=Your Program Name
+Exec=bash -c "sleep 3; /usr/bin/python3 /home/your_path.py"
+Name[en_GB]=reflectify
+```
+### Dynamic menu bar of Raspberry
+Panel Preferences → automatic hiding → minimize
+when not in use → size when minimized: 0
 
+### Install PyQt5
+```
+sudo apt install python3-pyqt5
+sudo apt-get install build-essential pyqt5-dev pyqt5-dev-tools python3-pyqt5.qtwebkit
+```
+### Trigger 
