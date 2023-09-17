@@ -55,3 +55,17 @@ Depicted below, the individual components and connections
 ### Software Components
 Below, the architecture of the software is shown. This includes the main, the MVC pattern architecture, and the individual subprocesses that can be triggered via the view.
 ![Software](https://github.com/sparklingPusher/Reflectify/blob/main/Images/Software_Components.png)
+
+## Arduino Setup
+
+For the implementation of the reading of the sensors platform.io was used, which can be integrated into the development environment of Visual Studio Code. For this purpose, the following parameters must be taken into account:
+| Variable | Setting |
+| --- | --- |
+| Platform | atmelavr |
+| Board | uno |
+| Framework | Arduino |
+| Lib_deps | dfrobot/DFRobot_DHT20@^1.0.0 |
+
+## Raspberry Setup
+
+
