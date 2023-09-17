@@ -68,5 +68,9 @@ For the implementation of the reading of the sensors platform.io was used, which
 
 ## Raspberry Setup
 
-_underscores__
+```
+function test() {
+  console.log("This code will have a copy button to the right of it");
+}
+```
 
