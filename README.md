@@ -67,7 +67,6 @@ For the implementation of the reading of the sensors platform.io was used, which
 | Lib_deps | dfrobot/DFRobot_DHT20@^1.0.0 |
 
 ## Raspberry Setup
-
 ### Update, upgrade and delete unnecessary parts:
 ```
 sudo apt-get update
@@ -89,10 +88,52 @@ Name[en_GB]=reflectify
 ### Dynamic menu bar of Raspberry
 Panel Preferences → automatic hiding → minimize
 when not in use → size when minimized: 0
-
 ### Install PyQt5
 ```
 sudo apt install python3-pyqt5
 sudo apt-get install build-essential pyqt5-dev pyqt5-dev-tools python3-pyqt5.qtwebkit
 ```
-### Trigger 
+### Trigger background windows
+```
+sudo apt-get install wmctrl
+```
+### Hide mouse if not in use
+```
+sudo apt-get install unclutter
+unclutter -idle 0
+```
+### Disable screensaver
+```
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
+```
+and insert
+```
+@xset -dpms
+@xset s off
+```
+### Raspberry Camera
+Interface Options → Legacy Camera → Enable
+### Change right Click to paste
+Since a virtual keyboard is programmed, a possibility must be found to store text and to be able to integrate this in the search bars of, for example, Soundcloud. For this purpose, the right mouse button of the touchpad is converted in the settings so that it functions as a "paste".
+```
+sudo apt-get install xbindkeys xclip
+xbindkeys --defaults > $HOME/.xbindkeysrc
+nano ~/.xbindkeysrc
+```
+and insert
+```
+"echo -n | xclip -o | xte 'keydown Control_L' 'key v' 'keyup Control_L'"
+b:3
+```
+then run in terminal
+```
+pkill xbindkeys
+xbindkeys
+```
+### Raspotify for Spotify
+```
+Curl -sSL https://dtcooper.github.io/raspotify/key.asc
+echo 'deb https://dtcooper.github.io/raspotify raspotify main'
+sudo tee /etc/apt/sources.list.d/raspotify.list
+sudo apt install raspotify
+```
