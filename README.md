@@ -37,6 +37,7 @@ The project's primary goals and what they will accomplish are listed below, taki
 ## Hardware and Sotware Components
 ### Hardware Components
 Depicted below, the individual components and connections
+
 ![Hardware](https://github.com/sparklingPusher/Reflectify/blob/main/Images/Hardware_Components.png)
 
 ### List of Hardware Components
@@ -56,6 +57,7 @@ Depicted below, the individual components and connections
 
 ### Software Components
 Below, the architecture of the software is shown. This includes the main, the MVC pattern architecture, and the individual subprocesses that can be triggered via the view.
+
 ![Software](https://github.com/sparklingPusher/Reflectify/blob/main/Images/Software_Components.png)
 
 ## Arduino Setup
