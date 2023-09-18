@@ -140,13 +140,17 @@ sudo apt install raspotify
 ## Interface
 ### Not triggered Interface
 If the ultrasonic sensors are not recognizing an obstacle in front of the mirror, just the weather information will be shown.
+
 ![NotTriggered](https://github.com/SparkPusher/Reflectify/blob/main/Images/No_Trigger_Screen.png)
 ### Triggered Screen
 If there is an obstacle, the following interface is shown.
+
 ![Triggered](https://github.com/SparkPusher/Reflectify/blob/main/Images/Triggered_Screen.png)
 ### Full Interface with Keyboard
 To type into Soundcloud, Youtube etc., a virtual keyboard is programmed, that save the input in the clipboard. The clipboard can then be pasted with the setting explained above, to paste it with the right click on the touchpad.
+
 ![Keyboard](https://github.com/SparkPusher/Reflectify/blob/main/Images/Keyboard.png)
 ### Example with Soundcloud
 Soundcloud, Youtube and News can be shown at the current state. More options are going to be implemented.
+
 ![Keyboard](https://github.com/SparkPusher/Reflectify/blob/main/Images/Soundcloud.png)
