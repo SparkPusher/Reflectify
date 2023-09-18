@@ -30,9 +30,9 @@ class Model():
         return day_format, mo_d_y, current_time
     
     def weather_info(self):
-        api_key = "36d7e9c596e54f19a1c145338232404"
+        api_key = "Insert your API-Key here"
         url = "http://api.weatherapi.com/v1/current.json?"
-        city_norm = "Siddinghausen"
+        city_norm = "Insert your City or Village here"
         parameters = {"q": city_norm, "key": api_key, "aqi": "no"}
         response = requests.get(url, params=parameters)
         weather_data = response.json()
