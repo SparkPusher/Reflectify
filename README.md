@@ -162,6 +162,10 @@ Soundcloud, Youtube, a Camera and News can be shown at the current state. More o
 ![News](https://github.com/SparkPusher/Reflectify/blob/main/Images/News.png)
 ![Cam](https://github.com/SparkPusher/Reflectify/blob/main/Images/Camera.png)
 
+### Spotify
+
+To connect with Spotify, raspotify is implemented to the raspberry. This allows the user to connect directly from the phone with the mirror. Basically the pi works as device, that can be connected from every Spotify possibility like computer, phone, tablet...
+
 ## Mirror Frame and building up
 The frame has ventilation slots for getting sure there is no overheating behind the mirror.
 
