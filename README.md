@@ -137,3 +137,4 @@ echo 'deb https://dtcooper.github.io/raspotify raspotify main'
 sudo tee /etc/apt/sources.list.d/raspotify.list
 sudo apt install raspotify
 ```
+## Full Interface with Keyboard
