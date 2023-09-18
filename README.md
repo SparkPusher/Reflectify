@@ -153,4 +153,6 @@ To type into Soundcloud, Youtube etc., a virtual keyboard is programmed, that sa
 ### Example with Soundcloud
 Soundcloud, Youtube and News can be shown at the current state. More options are going to be implemented.
 
-![Keyboard](https://github.com/SparkPusher/Reflectify/blob/main/Images/Soundcloud.png)
+![Soundcloud](https://github.com/SparkPusher/Reflectify/blob/main/Images/Soundcloud.png)
+![Youtube](https://github.com/SparkPusher/Reflectify/blob/main/Images/Youtube.png)
+![News](https://github.com/SparkPusher/Reflectify/blob/main/Images/News.png)
