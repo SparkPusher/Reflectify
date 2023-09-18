@@ -137,4 +137,12 @@ echo 'deb https://dtcooper.github.io/raspotify raspotify main'
 sudo tee /etc/apt/sources.list.d/raspotify.list
 sudo apt install raspotify
 ```
-## Full Interface with Keyboard
+## Interface
+### Not triggered Interface
+![NotTriggered](https://github.com/SparkPusher/Reflectify/blob/main/Images/No_Trigger_Screen.png)
+### Triggered Screen
+![Triggered](https://github.com/SparkPusher/Reflectify/blob/main/Images/Triggered_Screen.png)
+### Full Interface with Keyboard
+![Keyboard](https://github.com/SparkPusher/Reflectify/blob/main/Images/Keyboard.png)
+### Example with Soundcloud
+![Keyboard](https://github.com/SparkPusher/Reflectify/blob/main/Images/Soundcloud.png)
