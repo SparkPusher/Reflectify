@@ -151,8 +151,41 @@ To type into Soundcloud, Youtube etc., a virtual keyboard is programmed, that sa
 
 ![Keyboard](https://github.com/SparkPusher/Reflectify/blob/main/Images/Keyboard.png)
 ### Example with Soundcloud
-Soundcloud, Youtube and News can be shown at the current state. More options are going to be implemented.
+Soundcloud, Youtube, a Camera and News can be shown at the current state. More options are going to be implemented.
 
 ![Soundcloud](https://github.com/SparkPusher/Reflectify/blob/main/Images/Soundcloud.png)
 ![Youtube](https://github.com/SparkPusher/Reflectify/blob/main/Images/Youtube.png)
 ![News](https://github.com/SparkPusher/Reflectify/blob/main/Images/News.png)
+![Cam](https://github.com/SparkPusher/Reflectify/blob/main/Images/Camera.png)
+
+## Mirror Frame and building up
+The frame has ventilation slots for getting sure there is no overheating behind the mirror.
+
+![Ventilation slots](https://github.com/SparkPusher/Reflectify/blob/main/Images/Ventilation_Slot.jpg)
+
+The frame has two holes for the ultrasonic sensors, one for the pi cam and one big opening for the touchpad.
+
+![holes](https://github.com/SparkPusher/Reflectify/blob/main/Images/Top_View.jpg)
+
+The back of the mirror can be opened to insert the touchpad and the monitor.
+
+![opened back](https://github.com/SparkPusher/Reflectify/blob/main/Images/Open_Back.jpg)
+
+The sensors are connected to an arduino. The arduino transmits the data via serial connection to the pi.
+
+![connection](https://github.com/SparkPusher/Reflectify/blob/main/Images/Closeup_Pi_Uno.jpg)
+
+After wiring, everything is pinned to the back of the monitor.
+
+![wired back](https://github.com/SparkPusher/Reflectify/blob/main/Images/Setup_Back.jpg)
+
+After closing the back looks like the following.
+
+![closed back](https://github.com/SparkPusher/Reflectify/blob/main/Images/Full_Setup_Back.jpg)
+
+## Future implementation
+
+Since the mirror is a prototype, there are still a number of additional features planned to be implemented to better interact with the user. This includes, for example, a better use of the Pi Cam with face recognition to adjust the greeting accordingly or the optimized runtime when passing the mirror. To work with different smart home systems, a connection between the Python program and IFTTT should be established. IFTTT represents various possible uses that can be integrated into the smart home. For example, the ESP8266, IFTTT, and the Adafruit dashboard have already been used and implemented to connect ws2812b led strips and the Google Home system, and this has been stated as successful (This is going to be uploaded in another repository in the future). In the first place, this possibility should be able to be displayed in the mirror to ensure control of the individual devices. In addition, an even more distinctive use of the smart home devices should be created, and possibly a Google Nest speaker should be attached to the frame in order to be able to carry out actions in the smart home with voice control
+First and foremost, the mirror was concerned with ensuring that the individual functionalities were successfully tested and implemented. The functionality is already guaranteed at the current time. However, the performance can still be optimized, as, for example, opening a YouTube video takes about 1-4 seconds, depending on how busy the Raspberry Pi is. For this, you can make sure that the PyQT webengine for the Raspberry Pi is supported or that you work with the Chrome web browser, which also guarantees an improvement in performance. In addition, various programming approaches are to be used to speed up some processes.
+
+
