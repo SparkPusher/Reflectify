@@ -36,7 +36,7 @@ The project's primary goals and what they will accomplish are listed below, taki
 
 ## Hardware and Sotware Components
 ### Hardware Components
-Depicted below, the individual components and connections
+Depicted below are the individual components and connections.
 
 ![Hardware](https://github.com/sparklingPusher/Reflectify/blob/main/Images/Hardware_Components.png)
 
@@ -62,7 +62,7 @@ Below, the architecture of the software is shown. This includes the main, the MV
 
 ## Arduino Setup
 
-For the implementation of the reading of the sensors platform.io was used, which can be integrated into the development environment of Visual Studio Code. For this purpose, the following parameters must be taken into account:
+For the implementation of the reading of the sensors, platform.io was used, which can be integrated into the development environment of Visual Studio Code. For this purpose, the following parameters must be taken into account:
 | Variable | Setting |
 | --- | --- |
 | Platform | atmelavr |
@@ -143,7 +143,7 @@ sudo apt install raspotify
 ```
 ## Interface
 ### Not triggered Interface
-If the ultrasonic sensors are not recognizing an obstacle in front of the mirror, just the weather information will be shown.
+If the ultrasonic sensors do not recognize an obstacle in front of the mirror, just the weather information will be shown.
 
 ![NotTriggered](https://github.com/SparkPusher/Reflectify/blob/main/Images/No_Trigger_Screen.png)
 ### Triggered Screen
@@ -151,11 +151,11 @@ If there is an obstacle, the following interface is shown.
 
 ![Triggered](https://github.com/SparkPusher/Reflectify/blob/main/Images/Triggered_Screen.png)
 ### Full Interface with Keyboard
-To type into Soundcloud, Youtube etc., a virtual keyboard is programmed, that save the input in the clipboard. The clipboard can then be pasted with the setting explained above, to paste it with the right click on the touchpad.
+To type in Soundcloud, Youtube etc., a virtual keyboard is programmed, that save the input in the clipboard. The clipboard can then be pasted with the setting explained above, to paste it with the right click on the touchpad.
 
 ![Keyboard](https://github.com/SparkPusher/Reflectify/blob/main/Images/Keyboard.png)
 ### Example with Soundcloud
-Soundcloud, Youtube, a Camera and News can be shown at the current state. More options are going to be implemented.
+Soundcloud, Youtube,Camera, and News can be shown at the current state. More options are going to be implemented.
 
 ![Soundcloud](https://github.com/SparkPusher/Reflectify/blob/main/Images/Soundcloud.png)
 ![Youtube](https://github.com/SparkPusher/Reflectify/blob/main/Images/Youtube.png)
@@ -164,10 +164,10 @@ Soundcloud, Youtube, a Camera and News can be shown at the current state. More o
 
 ### Spotify
 
-To connect with Spotify, raspotify is implemented to the raspberry. This allows the user to connect directly from the phone with the mirror. Basically the pi works as device, that can be connected from every Spotify possibility like computer, phone, tablet...
+To connect with Spotify, raspotify is implemented on the Raspberry. This allows the user to connect directly from the phone to the mirror. In other words, the Pi works as a device that can be connected to Spotify through a computer, phone, tablet, etc.
 
 ## Mirror Frame and building up
-The frame has ventilation slots for getting sure there is no overheating behind the mirror.
+The frame has ventilation slots to ensure that there is no overheating behind the mirror.
 
 ![Ventilation slots](https://github.com/SparkPusher/Reflectify/blob/main/Images/Ventilation_Slot.jpg)
 
@@ -183,19 +183,19 @@ The sensors are connected to an arduino. The arduino transmits the data via seri
 
 ![connection](https://github.com/SparkPusher/Reflectify/blob/main/Images/Closeup_Pi_Uno.jpg)
 
-After wiring, everything is pinned to the back of the monitor.
+After wiring, everything is mounted to the back of the monitor.
 
 ![wired back](https://github.com/SparkPusher/Reflectify/blob/main/Images/Setup_Back.jpg)
 
-After closing the back looks like the following.
+After closing, the back looks like the following:
 
 ![closed back](https://github.com/SparkPusher/Reflectify/blob/main/Images/Full_Setup_Back.jpg)
 
 ## Future implementation
 
-Since the mirror is a prototype, there are still a number of additional features planned to be implemented to better interact with the user. This includes, for example, a better use of the Pi Cam with face recognition to adjust the greeting accordingly or the optimized runtime when passing the mirror. To work with different smart home systems, a connection between the Python program and IFTTT should be established. IFTTT represents various possible uses that can be integrated into the smart home. For example, the ESP8266, IFTTT, and the Adafruit dashboard have already been used and implemented to connect ws2812b led strips and the Google Home system, and this has been stated as successful (This is going to be uploaded in another repository in the future). In the first place, this possibility should be able to be displayed in the mirror to ensure control of the individual devices. In addition, an even more distinctive use of the smart home devices should be created, and possibly a Google Nest speaker should be attached to the frame in order to be able to carry out actions in the smart home with voice control
+Since the mirror is a prototype, there are still a number of additional features planned to be implemented to better interact with the user. This includes, for example, better use of the Pi Cam with face recognition to adjust the greeting accordingly or the optimized runtime when passing the mirror. To work with different smart home systems, a connection between the Python program and IFTTT should be established. IFTTT represents various possible uses that can be integrated into the smart home. For example, the ESP8266, IFTTT, and the Adafruit dashboard have already been used and implemented to connect ws2812b led strips and the Google Home system, and this has been stated as successful (this is going to be uploaded in another repository in the future). In the first place, the possibility of displaying smart devices on the mirror to ensure control of the individual devices must be set. In addition, an even more distinctive use of the smart home devices should be created, and possibly a Google Nest speaker should be attached to the frame in order to be able to carry out actions in the smart home with voice control.
 First and foremost, the mirror was concerned with ensuring that the individual functionalities were successfully tested and implemented. The functionality is already guaranteed at the current time. However, the performance can still be optimized, as, for example, opening a YouTube video takes about 1-4 seconds, depending on how busy the Raspberry Pi is. For this, you can make sure that the PyQT webengine for the Raspberry Pi is supported or that you work with the Chrome web browser, which also guarantees an improvement in performance. In addition, various programming approaches are to be used to speed up some processes.
 
 ## Hint
 
-The program is not one hundred percent ready to share, because of that in the "model" the api key for the weather is deleted. Here the official api key has to be inserted. Also the Location in the model for the weather can or has to be changed for the usage.
+The program is not one hundred percent ready to share, and because of that, in the "model", the api key for the weather is deleted. Here, the official api key has to be inserted. Also, the location in the model for the weather can or has to be changed for usage.
